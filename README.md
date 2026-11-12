@@ -1,26 +1,20 @@
-# Pickett Health Insurance website
+# Pickett Health Insurance site edit draft
 
-A simple static website with no build tools required.
+This is a draft package based on the provided homepage copy and the current public site files. It has not been uploaded to GitHub or deployed.
 
-## Included
-- `index.html` — homepage
-- `styles.css` — design
-- `script.js` — mobile menu
-- `privacy.html` — preliminary privacy page (review before public launch)
-- `assets/tequlia-pickett.jpg` — user-supplied original portrait
+## Files
 
-## GitHub
-Create a new repository and upload the **contents of this folder** to the repository root, preserving the `assets` folder. Commit.
+- `index.html` — updated homepage with services, consultation steps, FAQ, and prominent Medicare disclaimer
+- `styles.css` — responsive styling
+- `script.js` — existing mobile navigation behavior
+- `privacy.html` — revised draft privacy information; still requires confirmation of actual data practices
+- `tequlia-pickett.jpg` — existing portrait from the repository
 
-## Netlify
-Add new project → Import existing project → GitHub → select repository. Build command: leave empty. Publish directory: `.` (repository root). Deploy.
+## Before publishing
 
-For a manual Netlify deploy, drag and drop the **extracted folder** containing `index.html` into Netlify's deploy area.
+1. Replace every bracketed placeholder on the homepage with verified information: represented organization and product counts, licensed state(s), and service area.
+2. Have the final Medicare-related copy and disclaimer reviewed by Tequlia's FMO/carrier compliance team. This draft is not CMS, carrier, or FMO approved.
+3. Confirm the Privacy Information page against the actual hosting, analytics, cookie, and appointment scheduling practices.
+4. Upload the contents of this folder to the repository root and preview the site before connecting or updating the live domain.
 
-## Before launch
-- Verify displayed phone number: (706) 444-2787.
-- Verify Cal.com URL: https://cal.com/pickett-health-insurance/insurance-consultation
-- Confirm product availability, agent licenses and any required marketing/Medicare disclosures.
-- Replace/review preliminary privacy information to match actual practices.
-- Connect the GoDaddy domain only after verifying the staging deployment.
-- No email address is shown on the public pages.
+The homepage uses the phone number `(706) 444-2787` and the existing Cal.com booking link. It does not collect insurance applications or sensitive personal information.
